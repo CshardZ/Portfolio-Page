@@ -6,7 +6,7 @@ import Main from "@/components/Main"
 
 export default function PortfolioPage() {
   return (
-    <main id='portfolio-page'>
+    <main id='portfolio-page' className="bg-blue-400">
         <Header />
         <Sidebar />
         <Main />
