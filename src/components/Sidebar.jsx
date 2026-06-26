@@ -2,6 +2,12 @@ import React from 'react'
 
 export default function Sidebar() {
   return (
-    <div>Sidebar</div>
+    <aside
+      className="
+        w-[350px] bg-green-300
+      "
+    >
+      Sidebar
+    </aside>
   )
 }

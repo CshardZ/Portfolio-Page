@@ -6,11 +6,25 @@ import Main from "@/components/Main"
 
 export default function PortfolioPage() {
   return (
-    <main id='portfolio-page' className="bg-blue-400">
-        <Header />
+    <article id='portfolio-page' 
+      className="
+        w-full h-full px-32 py-6 bg-[#fafcfa]
+        grid grid-rows-[auto_1fr_auto]
+      "
+    >
+     <Header />
+   
+     <section 
+      className="
+        w-full bg-red-300
+        grid grid-cols-[auto_1fr]
+      "
+     >
         <Sidebar />
         <Main />
-        <Footer />
-    </main>
+     </section>
+   
+      <Footer />
+    </article>
   )
 }
