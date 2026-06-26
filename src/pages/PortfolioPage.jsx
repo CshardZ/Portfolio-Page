@@ -12,18 +12,18 @@ export default function PortfolioPage() {
         grid grid-rows-[auto_1fr_auto]
       "
     >
-     <Header />
-   
-     <section 
-      className="
-        w-full bg-red-300
-        grid grid-cols-[auto_1fr]
-      "
-     >
+      <Header />
+    
+      <section 
+        className="
+          w-full bg-red-300
+          grid grid-cols-[auto_1fr]
+        "
+      >
         <Sidebar />
         <Main />
-     </section>
-   
+      </section>
+    
       <Footer />
     </article>
   )
