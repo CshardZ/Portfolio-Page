@@ -1,7 +1,16 @@
-import React from 'react'
+import ProfileAvatar from "@/components/ui/ProfileAvatar"
+
 
 export default function Sidebar() {
   return (
-    <div>Sidebar</div>
+    <aside
+      className="
+        relative
+        w-[300px] bg-green-300
+      "
+    >
+      <ProfileAvatar />
+      Sidebar
+    </aside>
   )
 }

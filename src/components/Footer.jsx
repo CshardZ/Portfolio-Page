@@ -2,6 +2,12 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <div>Footer</div>
+    <footer
+      className="
+        w-full h-[150px] bg-blue-300
+      "
+    >
+      Footer
+    </footer>
   )
 }
