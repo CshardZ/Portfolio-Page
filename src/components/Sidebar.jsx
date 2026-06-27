@@ -6,7 +6,7 @@ export default function Sidebar() {
     <aside
       className="
         relative
-        w-[350px] bg-green-300
+        w-[300px] bg-green-300
       "
     >
       <ProfileAvatar />
