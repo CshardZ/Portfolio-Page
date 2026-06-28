@@ -11,7 +11,7 @@ export default function PortfolioPage() {
         w-full h-full bg-[#fafcfa]
         grid grid-rows-[auto_1fr_auto]
         shadow-lg
-        border-2 rounded-lg overflow-hidden
+        border-2 rounded-lg
       "
     > 
     {/* // shadow-[0_0_12px_rgba(0,0,0,0.2)] */}

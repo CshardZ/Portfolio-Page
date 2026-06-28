@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header
       className="
-        w-full h-[175px] bg-blue-300
+        w-full h-[175px] bg-gray-500
       "
     >
       Header
