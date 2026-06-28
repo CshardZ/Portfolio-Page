@@ -1,7 +1,7 @@
 import GridColStyle from "@/components/ui/GridColStyle"
 import StatsCard from "@/components/ui/StatsCard"
-import ExperienceCard from "./ui/ExperienceCard"
-
+import ExperienceCard from "@/components/ui/ExperienceCard"
+import SkillLabel from "@/components/ui/SkillLabel"
 
 
 export default function Main() {
@@ -9,14 +9,13 @@ export default function Main() {
     <main
       className="
         grid grid-rows-[auto_1fr_auto]
-        border-2 border-gray-300
-      "
-    >
+        "
+        >
       {/* Section 1: Stats Cards - Github, Leetcode etc */}
       <section id="stats-cards"
         className="
-          grid grid-cols-3 
-          border-2 border-gray-300 divide-x-2 divide-gray-300
+        grid grid-cols-3 
+        border-b-2 border-gray-300 divide-x-2 divide-gray-300
         "
       >
         <div className="p-4">
@@ -34,7 +33,7 @@ export default function Main() {
       <section id="work-skills"
         className="grid grid-cols-[2fr_1fr] px-4 py-6 gap-4"
       >
-        <div className="border-2 border-gray-300 p-4">
+        <div className="border-2 border-gray-300 p-4 bg-[#F8F8F6]">
           <h2 className="border-b-2 border-gray-300 py-2 mb-2">Experience</h2>
           <div className="flex flex-col items-center">
             <ExperienceCard />
@@ -51,9 +50,21 @@ export default function Main() {
             <div className="w-[1px] h-4 bg-gray-400" />
           </div>
         </div>
-        <div className="border-2 border-gray-300 p-4 self-start sticky top-32">
+        <div className="border-2 border-gray-300 p-4 self-start sticky top-32 bg-[#F8F8F6]">
           <h2 className="w-[300px] border-b-2 border-gray-300 py-2 mb-2">Skills</h2>
-          <div>Skill List</div>
+          <div className="flex flex-wrap">
+            <SkillLabel />
+            <SkillLabel />
+            <SkillLabel />
+            <SkillLabel />
+            <SkillLabel />
+            <SkillLabel />
+            <SkillLabel />
+            <SkillLabel />
+            <SkillLabel />
+            <SkillLabel />
+            <SkillLabel />
+          </div>
         </div>
       </section>
 
