@@ -1,24 +1,24 @@
 import React from "react";
 
-export default function ExperienceCard() {
+export default function ExperienceCard({ experience }) {
   return (
     <div className="w-full flex bg-gray-100 shadow-sm border border-stone-300 rounded-xs">
       {/* Start Date */}
       <div className="px-3 py-1 flex items-center">
-        Jun 2025
+        { experience.start }
       </div>
 
-      {/* Experience */}
+      {/* Experienceerience */}
       <div className="grow bg-white px-4 py-3 text-center">
         <h3 className="font-semibold break-words">
-          Software Developer Intern
+          { experience.role }
         </h3>
-        <p className="text-sm text-gray-600">Microsoft</p>
+        <p className="text-sm text-gray-600">{ experience.company }</p>
       </div>
 
       {/* End Date */}
       <div className="px-3 py-1 flex items-center">
-        Sep 2025
+        { experience.end}
       </div>
     </div>
   );
