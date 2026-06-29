@@ -2,6 +2,9 @@ import GridColStyle from "@/components/ui/GridColStyle"
 import StatsCard from "@/components/ui/StatsCard"
 import ExperienceCard from "@/components/ui/ExperienceCard"
 import SkillLabel from "@/components/ui/SkillLabel"
+import ProjectCard from "@/components/ui/ProjectCard"
+
+
 import {
   SiGithub,
   SiLeetcode,
@@ -80,12 +83,12 @@ export default function Main() {
         <div className="
           grid grid-cols-3 p-2 gap-2
         ">
-          <StatsCard />
-          <StatsCard />
-          <StatsCard />
-          <StatsCard />
-          <StatsCard />
-          <StatsCard />
+          <ProjectCard />
+          <ProjectCard />
+          <ProjectCard />
+          <ProjectCard />
+          <ProjectCard />
+          <ProjectCard />
         </div>
       </section>
     </main>
