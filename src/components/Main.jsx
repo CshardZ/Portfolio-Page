@@ -2,7 +2,10 @@ import GridColStyle from "@/components/ui/GridColStyle"
 import StatsCard from "@/components/ui/StatsCard"
 import ExperienceCard from "@/components/ui/ExperienceCard"
 import SkillLabel from "@/components/ui/SkillLabel"
-
+import {
+  SiGithub,
+  SiLeetcode,
+} from "react-icons/si";
 
 export default function Main() {
   return (
@@ -14,10 +17,13 @@ export default function Main() {
       {/* Section 1: Stats Cards - Github, Leetcode etc */}
       <section id="stats-cards"
         className="
-        grid grid-cols-3 
+        grid grid-cols-4 
         border-b-2 border-gray-300 divide-x-2 divide-gray-300
         "
       >
+        <div className="p-4">
+          <StatsCard />
+        </div>
         <div className="p-4">
           <StatsCard />
         </div>
@@ -50,7 +56,7 @@ export default function Main() {
             <div className="w-[1px] h-4 bg-gray-400" />
           </div>
         </div>
-        <div className="border-2 border-gray-300 p-4 self-start sticky top-32 bg-[#F8F8F6]">
+        <div className="border-2 border-gray-300 p-4 self-start sticky top-4 bg-[#F8F8F6]">
           <h2 className="w-[300px] border-b-2 border-gray-300 py-2 mb-2">Skills</h2>
           <div className="flex flex-wrap">
             <SkillLabel />
