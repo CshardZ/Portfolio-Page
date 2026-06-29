@@ -4,7 +4,8 @@ export default function Footer() {
   return (
     <footer
       className="
-        w-full h-[150px] bg-blue-300
+        w-full h-[150px] bg-[#355C5A]
+        rounded-bl-md rounded-br-md
       "
     >
       Footer

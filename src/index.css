@@ -10,11 +10,17 @@
     width: 100%;
     min-height: 100vh;
     padding: 32px 126px;
+    /* background-color: #101010; */
 }
 
 h1 {
     font-size: 2rem !important;
 }
+
 h2 {
     font-size: 1.5rem !important;
+}
+
+h3 {
+    font-size: 1.17rem !important;
 }

@@ -8,10 +8,9 @@ export default function PortfolioPage() {
   return (
     <article id='portfolio-page' 
       className="
-        w-full h-full bg-[#fafcfa]
+        w-full h-full bg-[#F1F1F0]
         grid grid-rows-[auto_1fr_auto]
         shadow-lg
-        border-2 rounded-lg overflow-hidden
       "
     > 
     {/* // shadow-[0_0_12px_rgba(0,0,0,0.2)] */}
