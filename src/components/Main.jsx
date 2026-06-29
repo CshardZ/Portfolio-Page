@@ -53,10 +53,6 @@ export default function Main() {
             <div className="w-[1px] h-4 bg-gray-400" />
             <ExperienceCard />
             <div className="w-[1px] h-4 bg-gray-400" />
-            <ExperienceCard />
-            <div className="w-[1px] h-4 bg-gray-400" />
-            <ExperienceCard />
-            <div className="w-[1px] h-4 bg-gray-400" />
           </div>
         </div>
         <div className="border-2 border-gray-300 p-4 self-start sticky top-4 bg-[#F8F8F6]">

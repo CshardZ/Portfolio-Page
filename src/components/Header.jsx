@@ -8,7 +8,6 @@ export default function Header() {
         rounded-tl-md rounded-tr-md
       "
     >
-      Header
     </header>
   )
 }
